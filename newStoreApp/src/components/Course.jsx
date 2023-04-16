@@ -17,6 +17,7 @@ export default function Course({course}) {
 
     const [courseBg, setCourseBg] = useState()
 
+    //Change background-color
     useEffect(() => {
       if(currency.code === "USD"){
         setCourseBg("card-accept")
