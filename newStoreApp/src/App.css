@@ -1,8 +1,16 @@
+
+
 :root{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+body{
+  background-color :"#282c34";
+  color : "#eee";
 }
 
 .container {
@@ -73,6 +81,10 @@
   padding: 1rem;
 }
 
+
+.card-header{
+  padding: 1rem 0;
+}
 .card-header,
 .card-footer{
   display: flex;
@@ -107,7 +119,7 @@
 
 .card-accept .card-header,
 .card-accept .card-footer {
-  background-color: #284ea7;
+  background-color: red;
   color: white;
 }
 
@@ -152,4 +164,12 @@
 
 .btn-light:hover {
   background: rgba(248, 249, 250, 0.75);
+}
+
+.course-img{
+  height: 100%;
+}
+
+li{
+  width: 250px;
 }

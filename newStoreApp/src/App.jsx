@@ -1,12 +1,16 @@
 
 import './App.css'
 import Store from './Store'
+import { CurrencyContextProvider } from './context/currencies-context'
 
 function App() {
 
   return (
     <div className="App">
-      <Store />
+      <CurrencyContextProvider>
+          <Store />
+      </CurrencyContextProvider>
+      
     </div>
   )
 }
